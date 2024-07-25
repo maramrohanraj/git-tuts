@@ -42,6 +42,17 @@ working->staging area --> git add
 staging area-> local repo  ---> git commit
 local repo -> remote repo ==> git push
 
+git add filename -> we will add to the staging area
+git commit -m "message" ==> we will commit to local repository
+git remote add origin https://github.com/maramrohanraj/git-tuts.git  ==> adding remote repository
+git push -u origin master ==?> for pushing the file to remore repository
+
+git checkout -> jumping between branches
+git checkout -b ==> creating a new branch
+
+
+git ignore is a file where we want to ignore the files that are not used like node_modules in react
+
 */
 
 
@@ -50,6 +61,17 @@ local repo -> remote repo ==> git push
 /* 
  it is in between the local repository and remote repository
  if we use staging area then we can commit what we need remaining will not be committed
+
+*/
+
+
+//* branch
+/* 
+main/master these are two branches ==> dhentlo mana code motham vuntadhi deploy gani redeploy gani chestham 
+tree have many branches one is the main one with that one only we can deploy changes 
+if 10 developers are in one team all will create one branch each then after completing the work
+they will raise a pull request and they will be a team leader is he agress then it will go to master branch othwerwise
+team leader will tell you to do some changes
 
 */
 
